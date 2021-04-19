@@ -12,9 +12,13 @@
 <view class="common-panel-bottom">
   <view class="useTime" bindtap="useTime">
     <image class="iconImage" src="../../../image/electric.svg"></image>
+    <view class="msgTip">电量统计</view>
+
   </view>
   <view class="setTime" bindtap="setTime">
     <image class="iconImage" src="../../../image/setTime.svg"></image>
+    <view  class="msgTip">定时</view>
+
   </view>
 </view>
 <van-popup
